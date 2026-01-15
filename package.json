@@ -1,0 +1,23 @@
+{
+  "name": "preflight",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "dependencies": {
+    "@langchain/google-genai": "^0.1.0",
+    "@langchain/core": "^0.3.0",
+    "@langchain/pinecone": "^0.1.0",
+    "@pinecone-database/pinecone": "^3.0.0",
+    "langgraph": "^0.2.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
